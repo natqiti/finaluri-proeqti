@@ -8,6 +8,7 @@ header{
     height: 75px;
     top: 0%;
     background-color: brown;
+    z-index: 10;
 }
 .con{
     display: flex;
@@ -18,4 +19,46 @@ header{
     display: flex;
     gap: 1.5rem;
     margin-right: 20px;
+}
+.baner{
+    position: relative;
+    height: 350px;
+    background-image: url(/images/baner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.inside{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    color: #ffd700;
+    text-size-adjust: 50px;
+}
+.box{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #4a1c1c; /* dark red background */
+    color: #fff8e7; /* ivory text */
+    border-radius: 12px;
+    max-width: 100%;
+    box-sizing: border-box;
+    box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.35),
+    0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.box-wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.f img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    object-fit: cover;
 }
