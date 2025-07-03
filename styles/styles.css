@@ -62,3 +62,76 @@ header{
     display: block;
     object-fit: cover;
 }
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card{
+    background-color: white;
+    width: 210px;
+    height: 260px; /* fixed size */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+.card p{
+    height: 40%;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.more{
+    text-align: right;
+    display: block;
+    margin-right: 30px;
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.text{
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    box-sizing: border-box;
+}
+.card1 img {
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;         
+    padding: 20px;
+    box-sizing: border-box;  
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    flex-direction: column;
+    margin-top: 30px;
+}
