@@ -96,3 +96,26 @@ body{
     color: #e2c4aa;
     text-decoration: none;
 }
+.blog-card:hover{
+  transform: scale(1.05);
+  transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.page-title {
+  text-align: center;
+  padding: 60px 20px 20px;
+  background-color: #2c1e1e;
+  color: #f8f4ed;
+}
+
+.page-title h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #d4af37;
+}
+
+.page-title p {
+  font-size: 18px;
+  color: #e2c4aa;
+}
