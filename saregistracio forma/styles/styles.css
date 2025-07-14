@@ -22,7 +22,12 @@ input, select {
   color: #f2e6d9;
   font-family: Georgia, serif;
 }
-input[type=submit], button[type=reset]{
+a{
+  display: inline-block; /* or block */
+  text-align: center;    /* center text inside */
+  text-decoration: none;
+}
+input[type=submit], button[type=reset], a{
   width: 100%;
   background-color: #5c2b2b;
   color: #f2e6d9;
@@ -33,9 +38,10 @@ input[type=submit], button[type=reset]{
   cursor: pointer;
    font-weight: bold;
   transition: background-color 0.3s ease;
+  box-sizing: border-box;
 }
 input[type=submit]:hover,
-button[type=reset]:hover {
+button[type=reset]:hover, a:hover {
   background-color: #d4af37; 
   color: #2c1e1e;            
 }
