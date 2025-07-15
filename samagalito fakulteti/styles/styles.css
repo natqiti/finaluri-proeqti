@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #2c1e1e;
+  color: #d4af37;
+  line-height: 1.6;
+  padding: 20px;
+  padding-top: 0;
+}
+
+/* Header */
+header.header {
+  background-color: #3b3b3b;
+  color: #f8f4ed;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+header.header h1 {
+  font-size: 28px;
+}
+
+/* Section General */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #d4af37;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+section p,
+section ul {
+  font-size: 16px;
+  color: #d4af37;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Engineering Majors Cards */
+.majors-cards,
+.engineering-cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: #3b3b3b; /* same as quote block */
+  border-left: 4px solid #d4af37; /* same gold accent */
+  padding: 20px;
+  border-radius: 12px;
+  color: #f8f4ed; /* match quote text */
+  font-weight: normal;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  font-style: italic; /* optional: match quote tone */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+}
+
+/* Quote Block */
+.quote-block {
+  background-color: #3b3b3b;
+  border-left: 4px solid #d4af37;
+  padding: 20px;
+  font-style: italic;
+  border-radius: 12px;
+  margin-top: 40px;
+  color: #f8f4ed;
+}
+
+.quote-block cite {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+/* Gallery Section */
+.mit-gallery,
+.gallery {
+  margin-top: 60px;
+  padding: 40px 20px;
+  background-color: #3b3b3b;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 28px;
+  color: #d4af37;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.gallery-wrapper,
+.gallery-grid,
+.gallery-natural {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-card,
+.photo-card {
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #2c1e1e;
+}
+
+.gallery-card img,
+.photo-card img,
+.gallery-natural img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+  max-height: 300px;
+  border-radius: 12px;
+}
+
+.gallery-card:hover,
+.photo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+}
+
+.gallery-card:hover img,
+.photo-card:hover img,
+.gallery-natural img:hover {
+  transform: scale(1.05);
+}
+
+/* Caption under photo */
+.caption {
+  text-align: center;
+  padding: 10px 0;
+  color: #f8f4ed;
+  font-size: 15px;
+}
+section h2 {
+  color: #d4af37;
+  margin-bottom: 15px;
+  font-size: 22px;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 8px;
+}
