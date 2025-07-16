@@ -1,5 +1,5 @@
 body {
-  background-color: #1e1414; 
+  background-color: #1e1414;
   color: #f2e6d9;
   font-family: Georgia, serif;
   padding: 40px;
@@ -7,10 +7,11 @@ body {
 }
 h1 {
   text-align: center;
-  color: #e2c4aa; 
+  color: #e2c4aa;
   margin-bottom: 30px;
 }
-input, select {
+input,
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -22,12 +23,14 @@ input, select {
   color: #f2e6d9;
   font-family: Georgia, serif;
 }
-a{
-  display: inline-block; /* or block */
-  text-align: center;    /* center text inside */
+a {
+  display: inline-block;
+  text-align: center;
   text-decoration: none;
 }
-input[type=submit], button[type=reset], a{
+input[type="submit"],
+button[type="reset"],
+a {
   width: 100%;
   background-color: #5c2b2b;
   color: #f2e6d9;
@@ -36,14 +39,15 @@ input[type=submit], button[type=reset], a{
   border: none;
   border-radius: 8px;
   cursor: pointer;
-   font-weight: bold;
+  font-weight: bold;
   transition: background-color 0.3s ease;
   box-sizing: border-box;
 }
-input[type=submit]:hover,
-button[type=reset]:hover, a:hover {
-  background-color: #d4af37; 
-  color: #2c1e1e;            
+input[type="submit"]:hover,
+button[type="reset"]:hover,
+a:hover {
+  background-color: #d4af37;
+  color: #2c1e1e;
 }
 div {
   margin-left: 200px;
@@ -66,17 +70,17 @@ textarea {
   font-family: Georgia, serif;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(1); 
+  filter: invert(1);
   cursor: pointer;
 }
 ::placeholder {
-  color: #c4b7af; 
+  color: #c4b7af;
   opacity: 1;
 }
 input[type="datetime-local"]::-webkit-calendar-picker-indicator {
-  filter: invert(1); 
+  filter: invert(1);
   cursor: pointer;
 }
-textarea{
+textarea {
   margin: 8px 0px;
 }
