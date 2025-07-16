@@ -115,3 +115,23 @@ section h2 {
   color: #d4af37;
   text-decoration: underline;
 }
+a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  background-color: #5c2b2b;
+  color: #f2e6d9;
+  padding: 14px 20px;
+  margin: 10px 0 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+a:hover {
+  background-color: #d4af37;
+  color: #2c1e1e;
+}

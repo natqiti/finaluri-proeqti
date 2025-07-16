@@ -1,9 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   background-color: #3b1f1f;
   color: #d4af37;
   margin: 0;
@@ -57,4 +57,24 @@ img {
 
 .answer {
   margin-left: 20px;
+}
+a {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  background-color: #5c2b2b;
+  color: #f2e6d9;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+a:hover {
+  background-color: #d4af37;
+  color: #2c1e1e;
 }
