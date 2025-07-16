@@ -1,81 +1,79 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 body {
-    font-family: 'Playfair Display', serif;
-    background-color: #2c1e1e;
-    color: #f8f4ed;
+  font-family: "Playfair Display", serif;
+  background-color: #2c1e1e;
+  color: #f8f4ed;
 }
-header{
-    position: sticky;
-    width: 100%;
-    top: 0%;
-    background-color: #5c2b2b;
-    z-index: 10;
-    padding: 20px 0;
+header {
+  position: sticky;
+  width: 100%;
+  top: 0%;
+  background-color: #5c2b2b;
+  z-index: 10;
+  padding: 20px 0;
 }
-.logo{
-    display: flex;
+.logo {
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
 }
-.tbc{
-    height: 70px;
+.tbc {
+  height: 70px;
 }
-.name{
-    font-family: 'Georgia', serif;
-    font-size: 60px;
+.name {
+  font-family: "Georgia", serif;
+  font-size: 60px;
   font-weight: bold;
   color: #f2e6d9;
   margin: 0;
 }
-.con{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-.nav{
-    display: flex;
-    gap: 1.5rem;
-    margin-top: 10px;
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 10px;
 }
 .nav a {
-    color: #f8f4ed;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: larger;
+  color: #f8f4ed;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: larger;
 }
 .nav a:hover {
-    color: #d4af37;
+  color: #d4af37;
 }
-.open{
-    text-decoration: underline !important;
-    color: #d4af37 !important;
+.open {
+  text-decoration: underline !important;
+  color: #d4af37 !important;
 }
 .news-card {
-  background-color: #2E1C1C;
-  color: #F5F5DC;
+  background-color: #2e1c1c;
+  color: #f5f5dc;
   padding: 2rem;
-  border: 1px solid #D4AF37;
+  border: 1px solid #d4af37;
   border-radius: 12px;
   max-width: 700px;
   margin: 2rem auto;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
- 
 }
 .news-title {
-  color: #D4AF37;
+  color: #d4af37;
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 .news-date {
-  color: #C0B283;
+  color: #c0b283;
   margin-bottom: 1rem;
 }
 .news-text {
@@ -85,7 +83,7 @@ header{
 .news-button {
   display: inline-block;
   background-color: #800020;
-  color: #F5F5DC;
+  color: #f5f5dc;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   text-decoration: none;
@@ -93,25 +91,25 @@ header{
   transition: background-color 0.3s ease;
 }
 .news-button:hover {
-  background-color: #A52A2A;
+  background-color: #a52a2a;
 }
-footer{
-    background-color: #1c1c1c;
-    color: #a58d7f;
-    text-align: center;
-    height: 220px;         
-    padding: 20px;
-    box-sizing: border-box;  
-    display: flex;
-    justify-content: center;
-    align-items: center;     
-    flex-direction: column;
-    margin-top: 30px;
+footer {
+  background-color: #1c1c1c;
+  color: #a58d7f;
+  text-align: center;
+  height: 220px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
 }
 footer {
   background-color: #3b1f1f;
   color: #f2e6d9;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   padding: 40px 20px 20px 10px;
   text-align: center;
 }
@@ -154,8 +152,8 @@ footer {
   flex: 1;
   min-width: 250px;
 }
-.footer-left{
-    margin-top: 30px;
+.footer-left {
+  margin-top: 30px;
 }
 .footer-logo {
   color: #d4af37;
@@ -166,6 +164,7 @@ footer {
 .footer-tagline {
   margin: 0;
   font-size: 16px;
+  font-family: "BPG Irubaqidze", monospace, sans-serif;
 }
 
 .footer-divider {
@@ -185,10 +184,54 @@ footer {
   font-size: 14px;
   color: #f2e6d9;
 }
-h1{
-    text-align: center;
-    font-size: 60px;
-    color: #d4af37;
-    margin-top: 30px;
-    margin-bottom: 30px;
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #d4af37;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1010px) {
+  .f {
+    display: none;
+  }
+
+  .box {
+    justify-content: center;
+  }
+
+  .rv {
+    max-width: 90%;
+  }
+  ul {
+    font-size: 25px;
+  }
+}
+.tbc {
+  display: inline;
+}
+
+.tbc-logo {
+  display: none;
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 750px) {
+  .tbc {
+    display: none;
+  }
+  .tbc-logo {
+    display: inline;
+    height: 110px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: inline !important;
+    height: 50px;
+  }
+}
+.burger {
+  display: none;
 }

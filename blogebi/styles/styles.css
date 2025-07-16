@@ -21,7 +21,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
 }
 .tbc {
   height: 70px;
@@ -216,6 +215,7 @@ footer {
 .footer-tagline {
   margin: 0;
   font-size: 16px;
+  font-family: "BPG Irubaqidze", monospace, sans-serif;
 }
 
 .footer-divider {
@@ -234,4 +234,48 @@ footer {
 .footer-bottom {
   font-size: 14px;
   color: #f2e6d9;
+}
+
+@media screen and (max-width: 1010px) {
+  .f {
+    display: none;
+  }
+
+  .box {
+    justify-content: center;
+  }
+
+  .rv {
+    max-width: 90%;
+  }
+  ul {
+    font-size: 25px;
+  }
+}
+.tbc {
+  display: inline;
+}
+
+.tbc-logo {
+  display: none;
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 750px) {
+  .tbc {
+    display: none;
+  }
+  .tbc-logo {
+    display: inline;
+    height: 110px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: inline !important;
+    height: 50px;
+  }
+}
+.burger {
+  display: none;
 }
